@@ -1,4 +1,8 @@
 #!/bin/bash
+#Creator: Tony Do
+#Date: 17th Feb,2023
+#Email: vanhuong.do@asicland.com
+#
 git remote add origin https://github.com/dovanhuong/$1.git
 git branch -M main
 git pull

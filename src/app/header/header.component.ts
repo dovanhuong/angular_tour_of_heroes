@@ -9,7 +9,10 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+  slogan: string = "Your one stop shop for everything";
+  getSlogan(){
+    return 'This is a new slogan for web';
   }
 
 }

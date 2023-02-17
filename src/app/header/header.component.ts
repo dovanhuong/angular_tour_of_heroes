@@ -14,5 +14,7 @@ export class HeaderComponent implements OnInit {
   getSlogan(){
     return 'This is a new slogan for web';
   }
+  source: string = "/assets/shopping.jpeg";
+
 
 }

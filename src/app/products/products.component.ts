@@ -12,10 +12,10 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
   }
   products = [
-    {id:1, name:'Miminallist analog watch', price:'109', color: 'black', available: 'available', image: '/assets/products/1.jpg'},
-    {id:2, name:'Miminallist analog watch', price:'109', color: 'black', available: 'available', image: '/assets/products/1.jpg'},
-    {id:3, name:'Miminallist analog watch', price:'109', color: 'black', available: 'available', image: '/assets/products/1.jpg'},
-    {id:4, name:'Miminallist analog watch', price:'109', color: 'black', available: 'available', image: '/assets/products/1.jpg'},
+    {id:1, name:'Miminallist analog watch', price:'109', color: 'black', available: 'notavailable', image: '/assets/products/1.jpg'},
+    {id:2, name:'Miminallist analog watch', price:'109', color: 'black', available: 'Available', image: '/assets/products/1.jpg'},
+    {id:3, name:'Miminallist analog watch', price:'109', color: 'black', available: 'Available', image: '/assets/products/1.jpg'},
+    {id:4, name:'Miminallist analog watch', price:'109', color: 'black', available: 'UnAvailable', image: '/assets/products/1.jpg'},
     {id:5, name:'Miminallist analog watch', price:'109', color: 'black', available: 'available', image: '/assets/products/1.jpg'},
     {id:6, name:'Miminallist analog watch', price:'109', color: 'black', available: 'available', image: '/assets/products/1.jpg'},
 
